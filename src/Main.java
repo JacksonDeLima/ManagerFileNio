@@ -13,6 +13,8 @@ public class Main {
         System.out.println("========================");
         System.out.println(persistence.write("Ricardo;ricardo@ricardo.com;12/01/2000;"));
         System.out.println("========================");
+        System.out.println(persistence.findAll());
+        System.out.println("========================");
 
 
     }
